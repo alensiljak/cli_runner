@@ -8,17 +8,18 @@
  * 
  * Example:
  * ```
- *     let cmd = "ls -alF";
- *     let output = run(cmd);
+ * use cli_runner::{run, get_stdout, get_stderr};
  * 
- *     assert!(output.status.success());
+ * let cmd = "ls -alF";
+ * let output = run(cmd);
  * 
- *     let so = get_stdout(&output);
- *     assert!(!so.is_empty());
+ * assert!(output.status.success());
  * 
- *     let se = get_stderr(&output);
- *     assert!(se.is_empty());
+ * let so = get_stdout(&output);
+ * assert!(!so.is_empty());
  * 
+ * let se = get_stderr(&output);
+ * assert!(se.is_empty());
  * ```
  */
 
