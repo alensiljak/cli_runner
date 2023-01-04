@@ -10,6 +10,8 @@ This is a multi-platform library.
 # Example
 
 ```rust
+use cli_runner::{run, get_stdout, get_stderr};
+
 let cmd = "ls -alF";
 let output = run(cmd);
 
