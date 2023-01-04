@@ -1,0 +1,15 @@
+[package]
+name = "cli_runner"
+description="CLI runner library for Rust - run a full command line String"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alen Šiljak <dev@alensiljak.eu.org>"]
+license = 'GPL-3.0-or-later'
+repository = 'https://github.com/alensiljak/cli_runner'
+categories = ['command-line-utilities']
+keywords = ["cli", "shell"]
+
+# Ref: https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+shell-words = "1.1.0"
