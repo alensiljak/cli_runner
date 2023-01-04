@@ -22,6 +22,10 @@ let se = get_stderr(&output);
 assert!(se.is_empty());
 ```
 
+# Changes
+
+See [Changelog](CHANGELOG.md)
+
 # License
 
 See [License](LICENSE)
